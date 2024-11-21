@@ -1,0 +1,43 @@
+/* selector  */
+/* especificicdad 
+!important
+en linea
+id
+clases
+etiquetas
+*/
+
+
+/* selector universal */
+*{
+    background-color: azure; /* cambiamos el color de fondo */
+}
+
+/* etiqueta */
+h1 {
+    /* que quiero cambiar/configurar del elemento: como lo quiero cambiar valor */
+    color:blue
+}
+
+p{
+/*     color: green!important; */
+    color: green!important;
+}
+
+/* id */
+#primerParrafo{
+    color: red;
+}
+
+/* clase */
+.colorAzul{
+    color: blue;
+}
+
+span{
+background-color: blue;
+}
+
+div{
+    background-color: brown;
+}

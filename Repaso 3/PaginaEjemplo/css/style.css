@@ -1,0 +1,29 @@
+.reporte {
+    background-color:#d51010;
+    font-family: 'Oswald', sans-serif;
+}
+
+span a  {
+    color: white;
+    text-decoration: none;
+}
+
+span .subtitulo {
+   color:#d51010;
+    text-decoration: none;
+
+}
+
+img {
+    width: 5%;
+    border-radius: 50%;
+}
+/* a{
+    color:black;
+     text-decoration: none;
+} */
+
+p a {
+    text-decoration: none;
+    color:black
+}

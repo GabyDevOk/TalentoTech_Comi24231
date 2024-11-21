@@ -1,0 +1,115 @@
+/* una columna n1r otra columna 2fr */
+/*  .grid-container{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+    background-color: aquamarine;
+    width: 100%;
+  
+}  */
+
+/* GAP = ESPACIO ENTRE LOS ELEMENTOS */
+
+/* cuadricula basica con columnas de tamaño fijo 
+tres columnas de 100px c/u
+*/
+/* .grid-container{
+    display: grid;
+    grid-template-columns: 100px 100px 100px; */
+/*     grid-template-columns: repeat(3,100px); */
+/*     gap:10px
+} */
+
+
+/* Ejemplo 2 : 
+cuadricula con columnas flexibles
+tres columnas 
+*/
+
+/* .grid-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap : 10px
+} */
+
+
+/* Ejemplos 3 : cuadricula mixta con columnas fijas y flexibles
+podemos combinar columnas de tamañño fijo y flexible en una cuadricula */
+
+/*  .grid-container{
+    display: grid;
+    grid-template-columns: 200px  1fr;
+    gap : 10px
+}  */
+
+/* grid-template-columns: 200px 1fr 1fr; */
+
+
+/* 
+Ejemplo 4 cuadricula con multiples filas */
+
+/*  .grid-container{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    gap: 10px
+}  
+
+.grid-item {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+ */
+
+/*  Ejemplo 5: cuadricula compleja con Areas y espacio Distribuido
+usando grid-template-areas , podemos definir un layout mas complejo con columnas y filas distribuidas
+*/
+/* 
+.grid-container{
+    display: grid;
+    grid-template-areas:  */
+   /*  "header header"  *//* dos celdas para el encabezado */
+ /*    "sidebar contenido"
+    "footer footer"; */
+    /* grid-template-columns: 200px 1fr; *//* columna fija y columna flexible */
+ /*    grid-template-rows: auto 1fr auto; *//* fila automatica, flexible y atomatica */
+/*     gap:10px;
+    height:100vh ;
+}    */ 
+
+/* .header {
+    grid-area: header;
+    background-color: #3c80b3;
+}
+
+.sidebar {
+    grid-area:sidebar;
+    background-color: #5a9bd3;
+}
+.contenido {
+    grid-area:contenido ;
+    background-color: #7bbce4;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: #9ad1f1;
+}
+
+ */
+/* 
+ ejemplo 6 cuadricula de 3x3 con diferentes tamaños de filas y columnas */
+
+ .grid-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; /* tres columnas con fracciones diferentes */
+    grid-template-rows: 100px auto 100px; /* tres filas con tamaños diferentes */
+    gap : 10px;
+ 
+}
+
+.grid-item {
+    background-color: #3c80b3;
+}
+

@@ -1,0 +1,169 @@
+/* Estilos generales para toda la página */
+body {
+    font-family: 'Kanit', sans-serif; /* Usamos la fuente importada */
+    margin: 0; /* Quitamos márgenes predeterminados */
+    padding: 0; /* Quitamos padding predeterminado */
+}
+a{
+    text-decoration: none;
+}
+
+/* Estilos para el menú de navegación */
+nav {
+    background-color: #343a40; /* Color de fondo oscuro */
+    padding: 10px 20px; /* Espacio interno alrededor del contenido */
+    display: flex; /* Usamos flexbox para organizar los elementos */
+    justify-content: space-between; /* Espaciamos los elementos a los lados */
+    align-items: center; /* Centramos verticalmente los elementos */
+    position: sticky; /* Hacemos que el menú se quede fijo al hacer scroll */
+    top: 0; /* Posicionamos el menú en la parte superior */
+    z-index: 1000; /* Aseguramos que el menú esté por encima de otros elementos */
+}
+
+/* Estilos para el logo y el título en el menú */
+.nav_inicio {
+    display: flex; /* Usamos flexbox */
+    align-items: center; /* Centramos verticalmente */
+}
+
+.Logo {
+    max-width: 80px; /* Tamaño máximo del logo */
+    margin-right: 10px; /* Espacio entre el logo y el título */
+}
+
+.Titulo {
+    color: white; /* Color del texto en blanco */
+    font-size: 24px; /* Tamaño del texto */
+    margin: 0; /* Quitamos márgenes */
+}
+
+/* Estilos para los iconos en el menú */
+.iconos a {
+    margin-left: 15px; /* Espacio entre los iconos */
+}
+
+/* Estilos para el carrusel */
+.carousel {
+    margin-top: 20px; /* Espacio superior antes del carrusel */
+}
+
+.carousel-item img {
+    height: 500px; /* Altura fija de las imágenes */
+    object-fit: cover; /* Las imágenes cubren todo el espacio disponible */
+}
+
+/* Estilos para el subtítulo en el contenido principal */
+.main_subtitulo {
+    text-align: center; /* Centramos el texto */
+    margin-top: 40px; /* Espacio superior */
+}
+
+/* Estilos para las tarjetas de productos */
+.main_cards {
+    display: flex; /* Usamos flexbox */
+    justify-content: space-around; /* Espaciamos las tarjetas uniformemente */
+    flex-wrap: wrap; /* Permitimos que las tarjetas pasen a la siguiente línea si es necesario */
+    margin-top: 20px; /* Espacio superior */
+}
+
+.card {
+    margin: 10px; /* Espacio alrededor de cada tarjeta */
+}
+
+/* Estilos para el pie de página */
+footer {
+    padding: 20px; /* Espacio interno */
+    background-color: #f8f9fa; /* Color de fondo claro */
+    text-align: center; /* Centramos el contenido */
+    margin-top: 40px; /* Espacio superior antes del pie de página */
+}
+
+footer a {
+    text-decoration: none; /* Quitamos el subrayado de los enlaces */
+    color: #007bff; /* Color azul para el enlace */
+    font-size: 18px; /* Tamaño del texto */
+}
+
+footer form {
+    margin-top: 20px; /* Espacio superior antes del formulario */
+}
+
+footer form h1 {
+    font-size: 24px; /* Tamaño del título del formulario */
+}
+
+footer input, footer textarea {
+    width: 100%; /* Campos ocupan todo el ancho disponible */
+    padding: 10px; /* Espacio interno en los campos */
+    margin-bottom: 10px; /* Espacio inferior entre los campos */
+    border: 1px solid #ced4da; /* Borde gris claro */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+footer button {
+    padding: 10px 20px; /* Espacio interno del botón */
+    background-color: #007bff; /* Color de fondo azul */
+    color: white; /* Color del texto en blanco */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+footer button:hover {
+    background-color: #0056b3; /* Color más oscuro al pasar el mouse*/
+}
+
+/* Estilos para las imágenes de redes sociales */
+footer .RSocial {
+    width: 40px; /* Ancho de los iconos */
+    margin: 5px; /* Espacio alrededor de cada icono */
+}
+
+/* Media Queries para pantallas medianas (tablets) */
+@media (max-width: 768px) {
+    /* Ajustamos el tamaño del logo */
+    .Logo {
+        max-width: 60px;
+    }
+    /* Las tarjetas se apilan verticalmente */
+    .main_cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    /* Ajustamos el ancho de las tarjetas */
+    .card {
+        width: 80%; /* Las tarjetas ocupan el 80% del ancho */
+    }
+    /* Ajustamos la altura de las imágenes del carrusel */
+    .carousel-item img {
+        height: 300px;
+    }
+}
+
+/* Media Queries para pantallas pequeñas (celulares) */
+@media (max-width: 480px) {
+    /* Ajustamos el tamaño del logo */
+    .Logo {
+        max-width: 50px;
+    }
+    /* Ajustamos el ancho de las tarjetas */
+    .card {
+        width: 90%; /* Las tarjetas ocupan el 90% del ancho */
+    }
+    /* Ajustamos la altura de las imágenes del carrusel */
+    .carousel-item img {
+        height: 200px;
+    }
+    /* Ajustamos el tamaño del título */
+    .Titulo {
+        font-size: 20px;
+    }
+    /* Ajustamos los títulos en el pie de página */
+    footer form h1, footer h1 {
+        font-size: 20px;
+    }
+    /* Ajustamos el tamaño del enlace en el pie de página */
+    footer a {
+        font-size: 16px;
+    }
+}

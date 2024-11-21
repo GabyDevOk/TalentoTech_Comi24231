@@ -1,0 +1,17 @@
+ .contenedor{
+    display:flex;
+  justify-content: space-between;
+  align-items: center;
+padding:20px
+
+}
+/* flex-wrap */
+
+
+.items{
+    padding :20px;
+    background-color: blue;
+    color: aliceblue;
+    text-align: center;
+    border:1px solid red
+}

@@ -1,0 +1,50 @@
+/* grid para layout general */
+.grid-layout{
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "sidebar contenido"
+    "footer footer";
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: auto 1fr auto;
+    gap: 10px ;
+    min-height: 100vh;
+}
+
+.header {
+    grid-area: header;
+    background-color: #3c80b3;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: #5a9bd3;
+}
+
+.contenido{
+    grid-area: contenido;
+    background-color: #7bbce4;
+    padding: 10px;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: #9ad1f1;
+}
+/* 
+flexbox para el contenido interno */
+
+.flexbox-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexbox-item{
+    background-color: #444;
+    color: aliceblue;
+    padding: 10px;
+    flex: 1;
+    margin:5px;
+    text-align: center;
+
+}

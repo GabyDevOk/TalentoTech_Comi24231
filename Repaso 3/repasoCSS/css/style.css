@@ -1,0 +1,36 @@
+/* SELECTORES */
+
+/* 
+* = SELECTOR UNIVERSAL 
+h1, p ..etc = ETIQUETAS
+.nombreClase = clase (Varios elementos)
+#nombreID = ID (solo uno o unico)
+*/
+
+
+*{
+           
+    background-color: azure;
+
+}
+
+h1 {
+    color:red;
+}
+
+.itemsVerdes{
+    color : green;
+    font-family:monospace
+}
+
+#parrafoId{
+    color: violet;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}

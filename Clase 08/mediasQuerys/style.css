@@ -1,0 +1,30 @@
+.caja {
+    width: 100%;
+    padding:20px;
+    background-color: #28a745;
+    color:white
+}
+
+/* estilos para pantallas mayores a 600px */
+/* Pantallas pequeñas (móviles): Menores a 600px */
+/* @media (max-width:600px){
+   .caja {
+    background-color: #28a745;
+   } 
+} */
+/* Pantallas medianas (tabletas): Entre 600px y 1024px */
+@media (min-width:600px) and (max-width:1024px){
+    .caja {
+        background-color:#ffc107;
+    }
+    
+}
+
+/* Pantallas grandes (escritorio): Mayores a 1024px */
+ @media (min-width :1024px){
+.caja{
+    background-color: #007bff;
+
+}
+ }
+

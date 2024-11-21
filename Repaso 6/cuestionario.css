@@ -1,0 +1,34 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+body {
+    background-image:url("../Repaso 5/images/C1.jpg");
+    
+}
+
+#parrafoID{
+    background-color:burlywood ;
+    color: chartreuse;
+}
+
+.parrafoClase{
+    background-color:rgb(128, 255, 0) ;
+    color: burlywood;
+
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    background-color: aquamarine;
+    padding : 20px
+}
+
+.flex-items{
+    width: 80%;
+    padding: 20px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}

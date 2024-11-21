@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--     Enlaces para importar fuentes de google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--     Importamos a fuente Montserrat -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!--  Importamos el CSS de Bootstrap para ayudarnos con estilos y diseño responsive -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--   Enlace a nuestro archivo CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Talento Commerce</title>
+</head>
+
+<body>
+
+    <!--     comienzo del encabezado de la pagina -->
+    <header>
+        <nav class="navbar sticky">
+            <!--  la clase sticky hace que el menu quede fijo en la parte superior cuando hacemos scroll -->
+            <div class="nav_inicio">
+                <!--   logo de la empresa -->
+                <img src="./images/logo.png" alt="logo talento tech" class="logo">
+                <!-- titulo o nombre de la empresa -->
+                <h1 class="titulo">Talento Commerce</h1>
+            </div>
+
+            <div class="nar_inicio iconos">
+              <!--Parte derecha del navbar con iconos -->
+            <!--    icono carrito -->
+               <a href="#"> <box-icon name='cart'></box-icon> </a>
+             <!--   icono perfil user -->
+               <a href="#"><box-icon name='user-circle'></box-icon></a>
+            </div>
+        </nav>
+        <!--     carrusel de imagenes -->
+<div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./images/C1.jpg" class="d-block w-100" alt="banner 1">
+      </div>
+      <div class="carousel-item">
+        <img src="./images/C2.jpg" class="d-block w-100" alt="banner 2">
+      </div>
+      <div class="carousel-item">
+        <img src="./images/C3.jpg" class="d-block w-100" alt="banner 3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<!--      fin carrusel -->
+    </header>
+
+
+
+
+    <!-- scripts de JS necesario para bootstrap y los iconos -->
+    <!--  Script de  bootstrap para funcionalidades interactivas -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+ <!--        script para los iconos de boxIcons -->
+        <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+</body>
+
+</html>

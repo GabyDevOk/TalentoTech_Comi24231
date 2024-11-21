@@ -1,0 +1,84 @@
+/* Estilos generales para todo el sitio */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(106, 198, 198);
+    color: #333
+}
+
+/* Estilos para el Encabezado */
+header{
+    background-color: #333;
+    color: azure;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Contenedor principal de los productos */
+/* 
+contenedor (flex -container) */
+.contenedor-productos{
+    display: flex; /* utilizamos flexbox para organizar los productos */
+    flex-wrap:wrap ;/*  permite que los productos se organicen en varias filas */
+    justify-content: space-between; /* espacio uniforme entre productos */
+    padding: 20px;
+}
+
+.producto {
+    background-color: white;
+    width:  30%; /*cada producto ocupa un 30% del ancho del contenedor (tres productos por fila)*/
+    margin-bottom:20px ;
+    padding: 15px;
+    text-align: center;
+/*             TOP    derecha/izquierda    bottom    color sombra       */
+    box-shadow: 0      4px                 8px    rgba(233,23,23);/*  (añadimos una sutil sombra) */
+    box-sizing: border-box;/*  incluir padding en el ancho total */
+} 
+
+/* imagen */
+    .producto img{
+    max-width: 100%; /*      la imagen ocupe el 100% del contenedor */
+    height: auto; /* mantiene la proporcion de la imagen
+ */
+    }
+
+   /*  precio del producto */
+   .producto p{
+    font-size: 1rem;
+    color:#4caf50
+   }
+
+/*    boton de compra */
+.producto button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+.producto button:hover{
+    background-color: #7b1f0f;
+}
+/* pseudo-clase */
+
+/* media query para pantalla mediana */
+@media (max-width:768px){
+    .producto { 
+        width: 45%; /* dos productos por fila en pantallas medianas */
+    } 
+}
+
+/* media query para pantalla pequeña */
+@media (max-width:480px){
+    .producto { 
+        width: 100%; /* un producto por fila en pantallas pequeñas */
+    } 
+    header {
+        padding : 15px ; /* ajustamos el pádding del encabezado en moviles */
+    }
+    .contenedor-productos{
+        padding : 10px ; /* menor padding en dispositivos pequeños */
+    }
+}
