@@ -226,10 +226,17 @@ gitbash
 https://git-scm.com/downloads
 -----------------------
 
+ links de importancia :
+
 drive : https://drive.google.com/drive/u/1/folders/1qgpXI3tARc3OwA-EragKFV4r0VK-dmRI
 
 repositorio : https://github.com/GabyDevOk/TalentoTech_Comi24231.git
 
-canal youtube clases : https://www.youtube.com/playlist?list=PL9FDV61UoWvKh5kEncAlhIAsO2qL4a-iE
+clases : https://www.youtube.com/playlist?list=PL9FDV61UoWvKh5kEncAlhIAsO2qL4a-iE
 
-canal youtube curso gitgithub : https://www.youtube.com/playlist?list=PL9FDV61UoWvKcoFMo3SRqo0Lu8HNGnVAz
+curso gitgithub : https://www.youtube.com/playlist?list=PL9FDV61UoWvKcoFMo3SRqo0Lu8HNGnVAz
+
+meet clases repaso : https://meet.google.com/yre-muic-tjs
+
+Zoom Clases  : https://zoom.us/j/95476427158
+
