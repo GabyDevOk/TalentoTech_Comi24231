@@ -1,4 +1,4 @@
-/* estructuras de control */
+/* Estructuras de control */
 /* WHILE - (BUCLES SIMPLES) */
 
 //USAMOS UN BUCLE WHILE PARA CONTAR DE 1 A 5
