@@ -1,0 +1,13 @@
+{
+    "nombre": "Juan",
+    "edad": 23,
+    "suscripto": true,
+    "direccion": {
+        "ciudad":"Buenos Aires",
+        "pais":"Argentina"
+    },
+    "hobies": [
+        "leer",
+        "programar",
+        "viajar" ]
+}
